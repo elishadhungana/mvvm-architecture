@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+        
+        <!--<variable
+            name="viewmodel"
+            type="" />-->
+    </data>
+    
+    
+    
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:contect=".ui.auth.LoginActivity">
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="45dp"
+            android:orientation="vertical"
+            tools:context="UI.auth.LoginActivity">
+
+            <EditText
+                android:id="@+id/activity_login_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+
+            <EditText
+                android:id="@+id/activity_login_password_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password" />
+
+            <Button
+                android:id="@+id/activity_login_button_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Login" />
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</layout>
+
+
+
+
+
+
+
+
+
